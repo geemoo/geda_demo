@@ -1,5 +1,5 @@
 # Name of the project 
-PROJNAME := project_name
+PROJNAME := geda_demo
 
 # We pull in all schematic pages by default.. 
 PAGES := $(shell ls -1 *_p*.sch)
