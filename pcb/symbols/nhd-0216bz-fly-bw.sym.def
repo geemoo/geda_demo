@@ -1,0 +1,39 @@
+[labels]
+
+# visible label
+NHD0216BZ
+
+# visible attributes
+refdes=U?
+
+# invisible attributes
+! device=NHD-0216bz-fl-ybw
+! description=2x16 lcd display
+! footprint=NHD0216BZ
+! numslots=0
+
+[left]
+6 E
+5 RW
+
+4 RS
+
+7 DB0
+8 DB1
+9 DB2
+10 DB3
+11 DB4
+12 DB5
+13 DB6
+14 DB7
+
+
+3 V0
+[right]
+[top]
+2 VDD
+15 LED+
+[bottom]
+1 VSS
+16 LED‐
+[nc]

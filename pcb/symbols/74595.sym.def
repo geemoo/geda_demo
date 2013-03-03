@@ -1,0 +1,37 @@
+[labels]
+
+# visible label
+74595
+
+# visible attributes
+refdes=U?
+
+# invisible attributes
+! device=74AHC595
+! description=high speed serial to parallel shift register
+! footprint=TSSOP16
+! numslots=0
+
+[left]
+13 ! OE
+10 ! SRCLR
+12 RCLK
+11 SRCLK
+14 SER
+[right]
+.bus
+15 QA
+1 B
+2 C
+3 D
+4 E
+5 F
+6 G
+7 H
+
+9 H'
+[top]
+16 VCC
+[bottom]
+2 GND
+[nc]
