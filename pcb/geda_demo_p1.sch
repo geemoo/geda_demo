@@ -7,7 +7,7 @@ device=CONNECTOR_6
 T 43800 47300 5 10 1 1 0 0 1
 refdes=J1
 T 43700 45300 5 10 1 1 0 0 1
-footprint=HEADER100_1x6
+footprint=JUMPER6
 }
 C 44800 47200 1 0 0 vcc-1.sym
 C 44900 44900 1 0 0 gnd-1.sym
@@ -193,7 +193,7 @@ device=CONNECTOR_3
 T 53900 48600 5 10 1 1 0 0 1
 refdes=J2
 T 53900 47500 5 10 1 1 0 0 1
-footprint=HEADER100_1x3
+footprint=JUMPER3
 }
 C 55200 47200 1 0 0 gnd-1.sym
 N 54800 47700 55300 47700 4
