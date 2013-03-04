@@ -5,7 +5,9 @@ C 43700 45300 1 0 0 connector6-1.sym
 T 45500 47100 5 10 0 0 0 0 1
 device=CONNECTOR_6
 T 43800 47300 5 10 1 1 0 0 1
-refdes=J?
+refdes=J1
+T 43700 45300 5 10 1 1 0 0 1
+footprint=HEADER100_1x6
 }
 C 44800 47200 1 0 0 vcc-1.sym
 C 44900 44900 1 0 0 gnd-1.sym
@@ -20,7 +22,7 @@ footprint=TSSOP16
 T 48000 48900 5 10 0 0 0 0 1
 device=74AHC595
 T 48200 47500 5 10 1 1 0 3 1
-refdes=U?
+refdes=U1
 }
 C 47700 39100 1 0 0 74595.sym
 {
@@ -29,7 +31,7 @@ footprint=TSSOP16
 T 48000 43500 5 10 0 0 0 0 1
 device=74AHC595
 T 48200 42100 5 10 1 1 0 3 1
-refdes=U?
+refdes=U2
 }
 C 48900 48500 1 0 0 vcc-1.sym
 N 49100 48500 49100 47700 4
@@ -46,27 +48,33 @@ C 47400 44700 1 90 0 resistor-1.sym
 T 47000 45000 5 10 0 0 90 0 1
 device=RESISTOR
 T 47200 44500 5 10 1 1 90 1 1
-refdes=R?
+refdes=R1
 T 47200 45400 5 10 1 1 90 1 1
 value=10k
+T 47400 44700 5 10 1 1 0 0 1
+footprint=0603
 }
 C 47100 47200 1 90 0 resistor-1.sym
 {
 T 46700 47500 5 10 0 0 90 1 1
 device=RESISTOR
 T 46900 47000 5 10 1 1 90 1 1
-refdes=R?
+refdes=R2
 T 46900 47900 5 10 1 1 90 1 1
 value=10k
+T 47100 47200 5 10 1 1 0 0 1
+footprint=0603
 }
 C 46800 47200 1 90 0 resistor-1.sym
 {
 T 46400 47500 5 10 0 0 90 1 1
 device=RESISTOR
 T 46600 47000 5 10 1 1 90 1 1
-refdes=R?
+refdes=R3
 T 46600 47900 5 10 1 1 90 1 1
 value=10k
+T 46800 47200 5 10 1 1 0 0 1
+footprint=0603
 }
 N 49100 48300 46700 48300 4
 N 46700 48300 46700 48100 4
@@ -77,18 +85,22 @@ C 47100 41800 1 90 0 resistor-1.sym
 T 46700 42100 5 10 0 0 90 1 1
 device=RESISTOR
 T 46900 41600 5 10 1 1 90 1 1
-refdes=R?
+refdes=R4
 T 46900 42500 5 10 1 1 90 1 1
 value=10k
+T 47100 41800 5 10 1 1 0 0 1
+footprint=0603
 }
 C 46800 41800 1 90 0 resistor-1.sym
 {
 T 46400 42100 5 10 0 0 90 1 1
 device=RESISTOR
 T 46600 41600 5 10 1 1 90 1 1
-refdes=R?
+refdes=R5
 T 46600 42500 5 10 1 1 90 1 1
 value=10k
+T 46800 41800 5 10 1 1 0 0 1
+footprint=0603
 }
 N 46700 42900 46700 42700 4
 N 47000 42700 47000 42900 4
@@ -115,7 +127,7 @@ footprint=NHD0216BZ
 T 57100 46600 5 10 0 0 0 0 1
 device=NHD-0216bz-fl-ybw
 T 55500 45900 5 10 1 1 0 3 1
-refdes=U?
+refdes=U3
 }
 N 55000 45500 52800 45500 4
 N 52800 45500 52800 47000 4
@@ -158,9 +170,11 @@ C 47400 39200 1 90 0 resistor-1.sym
 T 47000 39500 5 10 0 0 90 0 1
 device=RESISTOR
 T 47200 39000 5 10 1 1 90 1 1
-refdes=R?
+refdes=R6
 T 47200 39900 5 10 1 1 90 1 1
 value=10k
+T 47400 39200 5 10 1 1 0 0 1
+footprint=0603
 }
 N 47300 39200 47300 38900 4
 N 47300 38900 49100 38900 4
@@ -177,7 +191,9 @@ C 53900 47500 1 0 0 connector3-1.sym
 T 55600 48400 5 10 0 0 0 0 1
 device=CONNECTOR_3
 T 53900 48600 5 10 1 1 0 0 1
-refdes=J?
+refdes=J2
+T 53900 47500 5 10 1 1 0 0 1
+footprint=HEADER100_1x3
 }
 C 55200 47200 1 0 0 gnd-1.sym
 N 54800 47700 55300 47700 4
@@ -193,11 +209,13 @@ C 44100 38300 1 90 0 capacitor-1.sym
 T 43400 38500 5 10 0 0 90 0 1
 device=CAPACITOR
 T 43800 38200 5 10 1 1 90 0 1
-refdes=C?
+refdes=C1
 T 43200 38500 5 10 0 0 90 0 1
 symversion=0.1
 T 43800 38900 5 10 1 1 90 0 1
 value=0.1uF
+T 44100 38300 5 10 1 1 0 0 1
+footprint=0603
 }
 C 44400 39200 1 0 0 vcc-1.sym
 C 44500 38000 1 0 0 gnd-1.sym
@@ -208,9 +226,11 @@ device=CAPACITOR
 T 43900 38500 5 10 0 0 90 0 1
 symversion=0.1
 T 44500 38200 5 10 1 1 90 0 1
-refdes=C?
+refdes=C2
 T 44500 38900 5 10 1 1 90 0 1
 value=0.1uF
+T 44800 38300 5 10 1 1 0 0 1
+footprint=0603
 }
 C 45100 39200 1 0 0 vcc-1.sym
 C 45200 38000 1 0 0 gnd-1.sym
@@ -221,27 +241,33 @@ device=CAPACITOR
 T 44600 38500 5 10 0 0 90 0 1
 symversion=0.1
 T 45200 38200 5 10 1 1 90 0 1
-refdes=C?
+refdes=C3
 T 45200 38900 5 10 1 1 90 0 1
 value=0.1uF
+T 45500 38300 5 10 1 1 0 0 1
+footprint=0603
 }
 C 59000 45100 1 90 0 resistor-1.sym
 {
 T 58600 45400 5 10 0 0 90 1 1
 device=RESISTOR
 T 58800 44900 5 10 1 1 90 1 1
-refdes=R?
+refdes=R7
 T 58800 45800 5 10 1 1 90 1 1
 value=10k
+T 59000 45100 5 10 1 1 0 0 1
+footprint=0603
 }
 C 59000 43400 1 90 0 resistor-1.sym
 {
 T 58600 43700 5 10 0 0 90 1 1
 device=RESISTOR
 T 58800 43200 5 10 1 1 90 1 1
-refdes=R?
+refdes=R8
 T 58800 44100 5 10 1 1 90 1 1
 value=10k
+T 59000 43400 5 10 1 1 0 0 1
+footprint=0603
 }
 C 58800 42800 1 0 0 gnd-1.sym
 N 58900 43100 58900 43400 4
